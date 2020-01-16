@@ -33,8 +33,19 @@
 
              
     <!-- Grid Start -->
+    <style>
+    .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    justify-items: center;
+    align-items: center;
+ }
+ </style>
         
-    <div class="grid grid--horizontal" data-isotope='{ "itemSelector": ".grid-item", "layoutMode": "fitRows" }'>
+    <div class="grid-container">
     <div class="grid-item">
         <a href="pdfs/Contributor_Winter_2020_web.pdf" target="_blank">
             <span class="sort_order">22</span>
